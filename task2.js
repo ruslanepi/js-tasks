@@ -1,10 +1,7 @@
 // задача: распознать в строке правильную структура скобок {{}}
 // 
 
-
 const testString = "{{}} {}";
-
-
 
 function checkString(testString) {
   let stack = [];
@@ -26,9 +23,6 @@ function checkString(testString) {
 
   // if(!stack.length) return false;
   return true
-
-
 }
-
 
 console.log(checkString(testString)); 
